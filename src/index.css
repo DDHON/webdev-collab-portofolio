@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+.services-card {
+  background: transparent;
+}
+
+.services-card:hover {
+  background: linear-gradient(
+    180deg,
+    #fff 0.12%,
+    rgba(0, 149, 255, 0.47) 135.96%
+  );
+}
+.work-card {
+  background: transparent;
+}
+
+.work-card:hover {
+  background: linear-gradient(
+    180deg,
+    #fff 0.12%,
+    rgba(0, 149, 255, 0.47) 135.96%
+  );
+}
+.bg-primary {
+  background-color: #0066ae;
+}
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
